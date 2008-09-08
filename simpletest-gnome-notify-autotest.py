@@ -41,7 +41,7 @@ if __name__ == '__main__':
         dirlist = sys.argv[2:]
         if not len(dirlist): raise Exception  
     except:  
-        print 'use: %s [path]' % sys.argv[0]
+        print 'use: %s [simpletest_path] [project_path]' % sys.argv[0]
         sys.exit(1)  
 
     for path in dirlist:
