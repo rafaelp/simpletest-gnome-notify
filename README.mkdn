@@ -1,29 +1,21 @@
-Simpletest Gnome Notify with Autotest
-===================================
+# Simpletest Gnome Notify with Autotest
 
-The main reason of this script is to have automatic notifications of your tests
-written in Simpletest on Gnome Desktop.
+The main reason of this script is to have automatic notifications of your tests written in Simpletest on Gnome Desktop.
 
-More info: [http://rafael.adm.br/simpletest-gnome-notify](http://rafael.adm.br/simpletest-gnome-notify)
 
-DEPENDENCIES
--------------
+## DEPENDENCIES
 
 * [Simpletest](http://simpletest.org/)
 
 * libnotify
-  sudo apt-get install libnotify-bin
 
 * pyinotify
-  sudo apt-get install python-pyinotify
 
-USAGE
-------
+## USAGE
 
     ./simpletest-gnome-notify/simpletest-gnome-notify-autotest.py [path of simpletest] [path of your project]
 
-EXAMPLE OF FILE STRUCTURE
---------------------------
+## EXAMPLE OF FILE STRUCTURE
 
     $ ./simpletest-gnome-notify/simpletest-gnome-notify-autotest.py /path/to/simpletest /home/user/projects/myfirstproject
 
@@ -37,15 +29,23 @@ EXAMPLE OF FILE STRUCTURE
     MyModelUpdate.test.php
     MyModelRead.test.php
 
-LICENSE
---------
+
+## LICENSE
 
 Simpletest Gnome Notify is released under Creative Commons Attribution 2.5 Generic
 
 [http://creativecommons.org/licenses/by/2.5/](http://creativecommons.org/licenses/by/2.5/)
 
-AUTHOR
--------
+## AUTHOR
 
-[Rafael Lima](http://rafael.adm.br) at [Myfreecomm](http://myfreecomm.com.br)
+### **Rafael Lima**
 
+Working at [Myfreecomm](http://myfreecomm.com.br)
+
+Blog: [http://rafael.adm.br](http://rafael.adm.br)
+
+Podcast: [http://rafael.adm.br/voltandopracasa](http://rafael.adm.br/voltandopracasa)
+
+Github: [http://github.com/rafaelp](http://github.com/rafaelp)
+
+Twitter: [http://twitter.com/rafaelp](http://twitter.com/rafaelp)
