@@ -48,5 +48,6 @@ if __name__ == '__main__':
         os.chdir(path)
         print 'monitoring %s' % os.getcwd()
         wm.add_watch(os.getcwd(), EventsCodes.IN_CLOSE_WRITE, rec=True)  
-  
+        print os.popen(SimpletestGnomeNotify).read()
+
     Monitor()
